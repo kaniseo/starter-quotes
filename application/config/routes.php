@@ -43,6 +43,7 @@ $route['lock/(:any)/(:any)'] = "welcome/shucks";
 $route['404_override'] = '';
 $route['sleep'] = "first/zzz";
 $route['([a-zA-Z]{4})/bingo'] = "bingo";
+$route['show/(:num)'] = "first/gimme/$1";
 
 $route['dunno'] = function() {
     $sourceDir = './data/';
