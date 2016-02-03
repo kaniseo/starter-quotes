@@ -44,5 +44,7 @@ $route['404_override'] = '';
 $route['sleep'] = "first/zzz";
 $route['([a-zA-Z]{4})/bingo'] = "bingo";
 
+$route['comp([0-9]{4})/.+'] = "wise/bingo";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
